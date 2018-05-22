@@ -14,11 +14,11 @@ body {
 }
 
 #layout-menu {
-	background: #f6f6f6;
+	background: #dddddd; //#f6f6f6;
 	border: 1px solid #dddddd;
 	padding-top: 0.5em;
-	padding-left: 8px;
-	padding-right: 8px;
+	padding-left: 30px;
+	padding-right: 80px;
 	font-size: 1.0em;
 	width: auto;
 	white-space: nowrap;
@@ -32,11 +32,11 @@ body {
 }
 
 #layout-content {
-	padding-top: 0.0em;
-	padding-left: 1.0em;
-	padding-right: 1.0em;
+	padding-top: 0.5em;
+	padding-left: 2.0em;
+	padding-right: 5.0em;
     border: none;
-    background: white;
+    background: #f0f0f0;
     text-align: left;
     vertical-align: top;
 }
@@ -117,7 +117,7 @@ strong {
 
 
 h1, h2, h3 {
-	color: #527bbd;
+	color: #800000; //#527bbd;
 	margin-top: 0.7em;
 	margin-bottom: 0.3em;
 	padding-bottom: 0.2em;
@@ -145,6 +145,7 @@ h3 {
 }
 
 p {
+	background: #fffffff;
 	margin-top: 0.0em;
 	margin-bottom: 0.8em;
 	padding: 0;
@@ -226,6 +227,7 @@ ol ol {
 ol ol ol {
 	list-style-type: lower-roman;
 }
+
 
 p + div.codeblock {
 	margin-top: -0.6em;
