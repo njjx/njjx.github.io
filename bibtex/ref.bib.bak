@@ -1,0 +1,38 @@
+% Encoding: windows-1252
+
+@Article{Ji2017,
+  author   = {Ji Xu and Ge Yongshuai and Zhang Ran and Li Ke and Chen Guang?Hong},
+  title    = {Studies of signal estimation bias in grating?based x?ray multicontrast imaging},
+  journal  = {Medical Physics},
+  volume   = {44},
+  number   = {6},
+  pages    = {2453-2465},
+  doi      = {10.1002/mp.12235},
+  eprint   = {https://aapm.onlinelibrary.wiley.com/doi/pdf/10.1002/mp.12235},
+  keywords = {signal bias, x?ray dark?field contrast imaging, x?ray imaging, x?ray phase?contrast imaging},
+  url      = {https://aapm.onlinelibrary.wiley.com/doi/abs/10.1002/mp.12235},
+}
+
+@Article{Ge2018,
+  author  = {Yongshuai Ge and Xu Ji and Ran Zhang and Ke Li and Guang-Hong Chen},
+  title   = {K-edge energy-based calibration method for photon counting detectors},
+  journal = {Physics in Medicine \& Biology},
+  year    = {2018},
+  volume  = {63},
+  number  = {1},
+  pages   = {015022},
+  url     = {http://stacks.iop.org/0031-9155/63/i=1/a=015022},
+}
+
+@Article{Ji2018,
+  author  = {Xu Ji and Ran Zhang and Guang-Hong Chen and Ke Li},
+  title   = {Impact of anti-charge sharing on the zero-frequency detective quantum efficiency of CdTe-based photon counting detector system: cascaded systems analysis and experimental validation},
+  journal = {Physics in Medicine \& Biology},
+  year    = {2018},
+  volume  = {63},
+  number  = {9},
+  pages   = {095003},
+  url     = {http://stacks.iop.org/0031-9155/63/i=9/a=095003},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}

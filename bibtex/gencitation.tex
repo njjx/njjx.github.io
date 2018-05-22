@@ -1,0 +1,52 @@
+\documentclass[%
+ aip,
+ mph,%
+ amsmath,amssymb,
+ superscriptaddress,
+ floatfix,
+preprint,%
+%reprint,
+%linenumbers,
+eqsecnum,%
+%author-year,%
+numerical,%
+]{revtex4-1}
+
+\usepackage{graphicx}
+\DeclareGraphicsExtensions{.pdf,.png,.jpg}
+\usepackage[caption=false%,labelformat=parens,subrefformat=subparens,listofformat=subparens
+]{subfig}
+
+\pdfoptionpdfminorversion=5
+%\usepackage{epsfig}
+\usepackage{epstopdf}
+\usepackage{lipsum}
+\usepackage{wrapfig}
+\usepackage{wasysym}
+\usepackage{booktabs}
+\usepackage{lmodern}
+\usepackage{longtable}
+\usepackage{bm}
+\usepackage{indentfirst}
+\usepackage{cases}
+\usepackage{enumerate}
+\usepackage{verbatim}
+\usepackage[OT2,T1]{fontenc}
+\usepackage[bookmarks=false]{hyperref}
+\usepackage{color}
+\hypersetup{pdfauthor={},pdfborder=0 0 0,colorlinks=true,citecolor=blue,linkcolor=blue,urlcolor=blue,}
+
+\DeclareSymbolFont{cyrletters}{OT2}{wncyr}{m}{n}
+\DeclareMathSymbol{\comb}{\mathalpha}{cyrletters}{"58}
+\DeclareMathOperator{\sgn}{sgn}
+\newcommand{\ben}{\begin{eqnarray}\displaystyle}
+\newcommand{\een}{\end{eqnarray}}
+\newcommand{\et}{\emph{et al }}
+\newcommand{\refb}[1]{(\ref{#1})}
+\newcommand{\edit}{\textcolor{red}}
+\allowdisplaybreaks[3]
+
+\begin{document}
+\cite{Ji2018}\cite{Ge2018}\cite{Ji2017}
+\bibliography{ref}
+\end{document}
