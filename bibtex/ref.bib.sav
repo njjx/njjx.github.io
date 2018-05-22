@@ -1,9 +1,10 @@
 % Encoding: windows-1252
 
 @Article{Ji2017,
-  author   = {Ji, Xu and Ge Yongshuai and Zhang Ran and Li Ke and Chen Guang?Hong},
+  author   = {Ji, Xu and Ge, Yongshuai and Zhang, Ran and Li, Ke and Chen, Guang Hong},
   title    = {Studies of signal estimation bias in grating?based x?ray multicontrast imaging},
   journal  = {Medical Physics},
+  year     = {2017},
   volume   = {44},
   number   = {6},
   pages    = {2453-2465},
@@ -33,6 +34,61 @@
   number  = {9},
   pages   = {095003},
   url     = {http://stacks.iop.org/0031-9155/63/i=9/a=095003},
+}
+
+@Article{Ji2018a,
+  author  = {Xu Ji and Ran Zhang and Guang-Hong Chen and Ke Li},
+  title   = {Task-driven optimization of an experimental photon counting detector CT system for intracranial hemorrhage detection},
+  journal = {Proc.SPIE},
+  year    = {2018},
+  volume  = {10573},
+  pages   = {10573 - 10573 - 6},
+  doi     = {10.1117/12.2293942},
+  url     = {https://doi.org/10.1117/12.2293942},
+}
+
+@Article{Ji2017a,
+  author  = {Xu Ji and Yongshuai Ge and Ran Zhang and Ke Li and Guang-Hong Chen},
+  title   = {Weighted singular value decomposition (wSVD) to improve the radiation dose efficiency of grating-based x-ray phase contrast imaging with a photon counting detector},
+  journal = {Proc.SPIE},
+  year    = {2017},
+  volume  = {10132},
+  pages   = {10132 - 10132 - 6},
+  doi     = {10.1117/12.2255014},
+  url     = {https://doi.org/10.1117/12.2255014},
+}
+
+@Article{Ji2017b,
+  author  = {Xu Ji and Ran Zhang and Yongshuai Ge and Guang-Hong Chen, Ke Li},
+  title   = {Signal and noise characteristics of a CdTe-based photon counting detector: cascaded systems analysis and experimental studies},
+  journal = {Proc.SPIE},
+  year    = {2017},
+  volume  = {10132},
+  pages   = {10132 - 10132 - 6},
+  doi     = {10.1117/12.2255063},
+  url     = {https://doi.org/10.1117/12.2255063},
+}
+
+@Article{Ji2017c,
+  author  = {Xu Ji and Yongshuai Ge and Ran Zhang and Ke Li and Guang-Hong Chen},
+  title   = {Potential bias in signal estimation for grating-based x-ray multi-contrast imaging},
+  journal = {Proc.SPIE},
+  year    = {2017},
+  volume  = {10132},
+  pages   = {10132 - 10132 - 7},
+  doi     = {10.1117/12.2254429},
+  url     = {https://doi.org/10.1117/12.2254429},
+}
+
+@Article{Li2018,
+  author  = {Ke Li and Ran Zhang and John Garrett and Yongshuai Ge and Xu Ji and Guang-Hong Chen},
+  title   = {Design, construction, and initial results of a prototype multi-contrast x-ray breast imaging system},
+  journal = {Proc.SPIE},
+  year    = {2018},
+  volume  = {10573},
+  pages   = {10573 - 10573 - 6},
+  doi     = {10.1117/12.2293921},
+  url     = {https://doi.org/10.1117/12.2293921},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}

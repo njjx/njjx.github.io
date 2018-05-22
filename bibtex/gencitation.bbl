@@ -6,7 +6,7 @@
 %Control: page (1) range
 %Control: year (1) truncated
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{3}%
+\begin{thebibliography}{8}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -50,8 +50,8 @@
 \providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
 \let\auto@bib@innerbib\@empty
 %</preamble>
-\bibitem [{\citenamefont {Ji}\ \emph {et~al.}(2018)\citenamefont {Ji},
-  \citenamefont {Zhang}, \citenamefont {Chen},\ and\ \citenamefont
+\bibitem [{\citenamefont {Ji}\ \emph {et~al.}(2018{\natexlab{a}})\citenamefont
+  {Ji}, \citenamefont {Zhang}, \citenamefont {Chen},\ and\ \citenamefont
   {Li}}]{Ji2018}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {X.}~\bibnamefont
@@ -64,7 +64,7 @@
   }\href {http://stacks.iop.org/0031-9155/63/i=9/a=095003} {\bibfield
   {journal} {\bibinfo  {journal} {Physics in Medicine \& Biology}\ }\textbf
   {\bibinfo {volume} {63}},\ \bibinfo {pages} {095003} (\bibinfo {year}
-  {2018})}\BibitemShut {NoStop}%
+  {2018}{\natexlab{a}})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Ge}\ \emph {et~al.}(2018)\citenamefont {Ge},
   \citenamefont {Ji}, \citenamefont {Zhang}, \citenamefont {Li},\ and\
   \citenamefont {Chen}}]{Ge2018}%
@@ -79,8 +79,8 @@
   {\bibfield  {journal} {\bibinfo  {journal} {Physics in Medicine \& Biology}\
   }\textbf {\bibinfo {volume} {63}},\ \bibinfo {pages} {015022} (\bibinfo
   {year} {2018})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Ji}\ \emph {et~al.}()\citenamefont {Ji},
-  \citenamefont {Ge}, \citenamefont {Zhang}, \citenamefont {Li},\ and\
+\bibitem [{\citenamefont {Ji}\ \emph {et~al.}(2017{\natexlab{a}})\citenamefont
+  {Ji}, \citenamefont {Ge}, \citenamefont {Zhang}, \citenamefont {Li},\ and\
   \citenamefont {Chen}}]{Ji2017}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {X.}~\bibnamefont
@@ -91,8 +91,81 @@
   {\bibinfo {title} {Studies of signal estimation bias in grating?based x?ray
   multicontrast imaging},}\ }\href {\doibase 10.1002/mp.12235} {\bibfield
   {journal} {\bibinfo  {journal} {Medical Physics}\ }\textbf {\bibinfo {volume}
-  {44}},\ \bibinfo {pages} {2453--2465}},\ \Eprint
+  {44}},\ \bibinfo {pages} {2453--2465} (\bibinfo {year}
+  {2017}{\natexlab{a}})},\ \Eprint
   {http://arxiv.org/abs/https://aapm.onlinelibrary.wiley.com/doi/pdf/10.1002/mp.12235}
   {https://aapm.onlinelibrary.wiley.com/doi/pdf/10.1002/mp.12235} \BibitemShut
   {NoStop}%
+\bibitem [{\citenamefont {Ji}\ \emph {et~al.}(2018{\natexlab{b}})\citenamefont
+  {Ji}, \citenamefont {Zhang}, \citenamefont {Chen},\ and\ \citenamefont
+  {Li}}]{Ji2018a}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {X.}~\bibnamefont
+  {Ji}}, \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Zhang}}, \bibinfo
+  {author} {\bibfnamefont {G.-H.}\ \bibnamefont {Chen}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {K.}~\bibnamefont {Li}},\ }\bibfield  {title}
+  {\enquote {\bibinfo {title} {Task-driven optimization of an experimental
+  photon counting detector ct system for intracranial hemorrhage detection},}\
+  }\href {\doibase 10.1117/12.2293942} {\bibfield  {journal} {\bibinfo
+  {journal} {Proc.SPIE}\ }\textbf {\bibinfo {volume} {10573}},\ \bibinfo
+  {pages} {10573 -- 10573 -- 6} (\bibinfo {year}
+  {2018}{\natexlab{b}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Ji}\ \emph {et~al.}(2017{\natexlab{b}})\citenamefont
+  {Ji}, \citenamefont {Ge}, \citenamefont {Zhang}, \citenamefont {Li},\ and\
+  \citenamefont {Chen}}]{Ji2017a}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {X.}~\bibnamefont
+  {Ji}}, \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {Ge}}, \bibinfo
+  {author} {\bibfnamefont {R.}~\bibnamefont {Zhang}}, \bibinfo {author}
+  {\bibfnamefont {K.}~\bibnamefont {Li}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {G.-H.}\ \bibnamefont {Chen}},\ }\bibfield  {title} {\enquote
+  {\bibinfo {title} {Weighted singular value decomposition (wsvd) to improve
+  the radiation dose efficiency of grating-based x-ray phase contrast imaging
+  with a photon counting detector},}\ }\href {\doibase 10.1117/12.2255014}
+  {\bibfield  {journal} {\bibinfo  {journal} {Proc.SPIE}\ }\textbf {\bibinfo
+  {volume} {10132}},\ \bibinfo {pages} {10132 -- 10132 -- 6} (\bibinfo {year}
+  {2017}{\natexlab{b}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Ji}\ \emph {et~al.}(2017{\natexlab{c}})\citenamefont
+  {Ji}, \citenamefont {Zhang}, \citenamefont {Ge},\ and\ \citenamefont
+  {Guang-Hong~Chen}}]{Ji2017b}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {X.}~\bibnamefont
+  {Ji}}, \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Zhang}}, \bibinfo
+  {author} {\bibfnamefont {Y.}~\bibnamefont {Ge}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {K.~L.}\ \bibnamefont {Guang-Hong~Chen}},\ }\bibfield  {title}
+  {\enquote {\bibinfo {title} {Signal and noise characteristics of a cdte-based
+  photon counting detector: cascaded systems analysis and experimental
+  studies},}\ }\href {\doibase 10.1117/12.2255063} {\bibfield  {journal}
+  {\bibinfo  {journal} {Proc.SPIE}\ }\textbf {\bibinfo {volume} {10132}},\
+  \bibinfo {pages} {10132 -- 10132 -- 6} (\bibinfo {year}
+  {2017}{\natexlab{c}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Ji}\ \emph {et~al.}(2017{\natexlab{d}})\citenamefont
+  {Ji}, \citenamefont {Ge}, \citenamefont {Zhang}, \citenamefont {Li},\ and\
+  \citenamefont {Chen}}]{Ji2017c}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {X.}~\bibnamefont
+  {Ji}}, \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {Ge}}, \bibinfo
+  {author} {\bibfnamefont {R.}~\bibnamefont {Zhang}}, \bibinfo {author}
+  {\bibfnamefont {K.}~\bibnamefont {Li}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {G.-H.}\ \bibnamefont {Chen}},\ }\bibfield  {title} {\enquote
+  {\bibinfo {title} {Potential bias in signal estimation for grating-based
+  x-ray multi-contrast imaging},}\ }\href {\doibase 10.1117/12.2254429}
+  {\bibfield  {journal} {\bibinfo  {journal} {Proc.SPIE}\ }\textbf {\bibinfo
+  {volume} {10132}},\ \bibinfo {pages} {10132 -- 10132 -- 7} (\bibinfo {year}
+  {2017}{\natexlab{d}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Li}\ \emph {et~al.}(2018)\citenamefont {Li},
+  \citenamefont {Zhang}, \citenamefont {Garrett}, \citenamefont {Ge},
+  \citenamefont {Ji},\ and\ \citenamefont {Chen}}]{Li2018}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Li}}, \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Zhang}}, \bibinfo
+  {author} {\bibfnamefont {J.}~\bibnamefont {Garrett}}, \bibinfo {author}
+  {\bibfnamefont {Y.}~\bibnamefont {Ge}}, \bibinfo {author} {\bibfnamefont
+  {X.}~\bibnamefont {Ji}}, \ and\ \bibinfo {author} {\bibfnamefont {G.-H.}\
+  \bibnamefont {Chen}},\ }\bibfield  {title} {\enquote {\bibinfo {title}
+  {Design, construction, and initial results of a prototype multi-contrast
+  x-ray breast imaging system},}\ }\href {\doibase 10.1117/12.2293921}
+  {\bibfield  {journal} {\bibinfo  {journal} {Proc.SPIE}\ }\textbf {\bibinfo
+  {volume} {10573}},\ \bibinfo {pages} {10573 -- 10573 -- 6} (\bibinfo {year}
+  {2018})}\BibitemShut {NoStop}%
 \end{thebibliography}%
