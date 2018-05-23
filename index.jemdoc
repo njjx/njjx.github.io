@@ -1,10 +1,13 @@
 # jemdoc: menu{MENU}{index.html}
 = Xu Ji
 
-/Research Assistant/\n
-Department of Medical Physics, University of Wisconsin-Madison\n
-1111 Highland Ave, Madison, WI 53705\n
-Email: [xji32@wisc.edu]\n
+~~~
+{}{img_left}{photo.jpg}{alt text}{200 px}{200 px}{photo.jpg}
+/Research Assistant/\n\n
+Department of Medical Physics, University of Wisconsin-Madison\n\n
+1111 Highland Ave, Madison, WI 53705\n\n
+Email: [xji32@wisc.edu]\n\n
+~~~
 
 == Biography
 I am a Ph. D. student in Department of Medical Physics at University of Wisconsin-Madison advised by Dr. Guang-Hong Chen. My research projects are related to
@@ -49,6 +52,9 @@ I am a Ph. D. student in Department of Medical Physics at University of Wisconsi
 - AAPM expanding horizons grant award, AAPM, 2016
 - Student travel award, RSNA, 2016
 - China national scholarship, 2012
+
+== Membership
+- AAPM student member (2016 - present)
 
 == Professional certification
 - The American Board of Radiology - Medical Physics - Part 1
