@@ -1,6 +1,6 @@
 \documentclass[letterpaper,11pt]{article}
-\usepackage{pifont}
-
+%\usepackage{pifont}
+\usepackage[UTF8]{ctex}
 %-----------------------------------------------------------
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
@@ -30,9 +30,9 @@
 \setlength{\tabcolsep}{0in}
 
 % Adjust margins
-\addtolength{\oddsidemargin}{-0.3in}
-\addtolength{\evensidemargin}{0.3in}
-\addtolength{\textwidth}{0.6in}
+\addtolength{\oddsidemargin}{-0.0in}
+\addtolength{\evensidemargin}{-0.0in}
+\addtolength{\textwidth}{0.0in}
 \addtolength{\topmargin}{-0.375in}
 \addtolength{\textheight}{0.75in}
 
@@ -42,25 +42,17 @@
 \newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
 \newcommand{\resheading}[1]{{\large \colorbox{mygrey}{\begin{minipage}{\textwidth}{\textbf{#1 \vphantom{p\^{E}}}}\end{minipage}}}}
 
-%-----------------------------------------------------------
-
-%-----------------------------------------------------------
-%General Resume Tips
-%   No periods!  Technically, nothing in this document is a full sentence.
-%   Use parallelism by ending key words with the same thing,  i.e. "Coordinated; Designed; Communicated".
-%   More tips on bottom of this LaTeX document.
-%-----------------------------------------------------------
 
 
 \renewcommand{\rmdefault}{ptm}
 
 \renewcommand\baselinestretch{1}% change line space here
-\newcommand{\profchen}{Prof.~\href{https://www.medphysics.wisc.edu/blog/staff/chen-guanghong/} {Guang-Hong Chen}}
+\newcommand{\profchen}{\href{https://www.medphysics.wisc.edu/blog/staff/chen-guanghong/} {Guang-Hong Chen 教授}}
 
-\newcommand{\profculberson}{Prof.~\href{https://www.medphysics.wisc.edu/blog/staff/culberson-wesley/} {Wesley~Culberson}}
+\newcommand{\profculberson}{\href{https://www.medphysics.wisc.edu/blog/staff/culberson-wesley/} {Wesley~Culberson 教授}}
 \newcommand{\xji}{\textbf{X.~Ji}}
 \begin{document}
-
+\begin{CJK}{UTF8}{song}
 
 
 \newcommand{\mywebheader}{
@@ -70,7 +62,7 @@
 \\
 \vspace{0.35in}}
 
-\lhead{\textbf{{Xu Ji}}}
+\lhead{{{季续}}}
 \rhead{\href{mailto:xji32@wisc.edu}{xji32@wisc.edu}}
 \cfoot{\thepage}
 \renewcommand{\headwidth}{\textwidth}
@@ -80,51 +72,50 @@
 % CHANGE HEADER SOURCE HERE
 \mywebheader
 \begin{tabular*}{\textwidth}{l @{\extracolsep{\fill}}r}
-   \multirow{4}{*}{\textbf{\Huge Xu Ji}} &Research assistant\\
-  &Department of Medical Physics, University of Wisconsin-Madison\\
-  &1111 Highland Ave, Madison, WI 53705\\
-  &\textbf{Email:} \href{mailto:xji32@wisc.edu}{xji32@wisc.edu} 
+   \multirow{4}{*}{\textbf{\Huge 季续}} &研究助理\\
+  &美国威斯康辛麦迪逊大学医学物理系\\
+  &地址：1111 Highland Ave, Madison, WI 53705, US\\
+  &{电子邮箱：} \href{mailto:xji32@wisc.edu}{xji32@wisc.edu} 
 \end{tabular*}
 
-\resheading{Education}
+\resheading{教育背景}
 	\begin{itemize}
-	\item \textbf{Ph.D. in Medical Physics}, University of Wisconsin-Madison\cftdotfill{\cftdotsep}08/2015 - 06/2020 (expected)
+	\item $\hbar$博士，美国威斯康辛大学麦迪逊分校医学物理专业\cftdotfill{\cftdotsep}08/2015 - 今
 	
-	Advisor: \profchen	
+	导师：\profchen	
         \item
-\textbf{B.S. in Physics}, Kuangyaming Honors School, Nanjing University\cftdotfill{\cftdotsep}09/2011 - 06/2015
+学士，南京大学匡亚明学院物理专业\cftdotfill{\cftdotsep}09/2011 - 06/2015
 		
-GPA: 94/100~(3.9/4.0)
+学分绩：94/100~(3.9/4.0)
 	
-Ranking: 1/80 \qquad
+排名：1/80 \qquad
        
 \end{itemize} % End Education list
 %%%%%%%%%%%%%%%%%%%%%%%
-\resheading{Research Interests}
-	\begin{itemize}
-	\item Broad interests: X-ray imaging systems and algorithms
-	\item Specific interests: I work on x-ray photon counting detector-based x-ray imaging for medical purposes. I am also interested in x-ray differential phase contrast imaging and discovering its potential application in medical imaging. 
+\resheading{研究方向}
+	\begin{itemize}\justifying
+	\item 主要研究方向为x光影像系统及算法
+	\item 详细研究方向为基于光子计数探测器的x光医学影像系统以及x光相称成像在医学领域的应用
 	\end{itemize}
-
 %%%%%%%%%%%%%%%%%%%%%%
-\resheading{Experiences}
+\resheading{工作经历}
 \begin{itemize}
-\item \textbf{Graduate Research Assistant}\cftdotfill{\cftdotsep} 08/2015 - present
+\item \textbf{研究助理}\cftdotfill{\cftdotsep} 08/2015 - 今
 
-Department of Medical Physics at UW-Madison
+美国威斯康辛大学麦迪逊分校医学物理系
 
-Supervised by \profchen
-\item \textbf{Graduate Teaching Assistant} \cftdotfill{\cftdotsep} Fall semesters in 2017,  2018 \& 2019
+导师：\profchen
+\item \textbf{教学助理} \cftdotfill{\cftdotsep} 2017，2018及2019秋季学期
 
-Course: Medical Physics 501 - Radiological Physics and Dosimetry
+课程: 放射物理与辐射剂量学
 
-Instructor: \profchen~\& \profculberson
-	 \item \textbf{Visiting Student}, Department of Physics, Duke University\cftdotfill{\cftdotsep}08/2014 - 12/2014
+主讲教师: \profchen与\profculberson
+	 \item \textbf{访问学生}, 美国杜克大学物理系\cftdotfill{\cftdotsep}08/2014 - 12/2014
 \end{itemize}
 %%%%%%%%%%%%%%%%%%%%%%
-\resheading{Publications}
+\resheading{论文发表}
 \begin{itemize}
-\item Journal publications
+\item 期刊论文
 \begin{enumerate}\justifying
 \item \xji, R. Zhang, K. Li, and G.-H. Chen, ``Dual energy differential phase contrast CT (DE-DPC-CT) imaging,'' IEEE Trans. Med. Imag. (2020).
 \item \xji, R. Zhang, K. Li, and G.-H. Chen, ``Is high sensitivity always desirable for a grating-based phase contrast imaging system?'' Med. Phys. 47: 1215-1228, (2019).
@@ -136,7 +127,7 @@ Instructor: \profchen~\& \profculberson
 \item \xji, Y. Ge, R. Zhang, K. Li, and G.-H. Chen, ``Studies of signal estimation bias in grating-based x-ray multicontrast imaging,'' Med. Phys. 44: 2453-2465, (2017).
 \end{enumerate}
 
-\item Conference proceedings
+\item 会议论文
 \begin{enumerate}\justifying
 \item \xji, R. Zhang, K. Li, and G.-H. Chen, ``Phase contrast CT enabled three-material decomposition in spectral CT imaging,'' Proc.~SPIE 113121B \& Oral presentation at SPIE Medical Imaging (2020).
 \item M. Feng, \xji, R. Zhang, J. R. Miller, G.-H. Chen, K. Li, ``Impact of photon counting detector spectral distortion on virtual non-contrast CT imaging,'' Proc.~SPIE 113121J (2020).
@@ -151,7 +142,7 @@ Instructor: \profchen~\& \profculberson
 \item \xji, Y. Ge, R. Zhang, K. Li, and G.-H. Chen, ``Potential bias in signal estimation for grating-based x-ray multi-contrast imaging,'' Proc.~SPIE 10132 \& Oral presentation at SPIE Medical Imaging (2017).
 \end{enumerate}
  
-\item Conference abstracts 
+\item 会议摘要
 \begin{enumerate}\justifying
 \item \xji, M. Feng, R. Zhang, G.-H. Chen, and K. Li, ``An experimental method to measure zero-Frequency DQE in the presence of system drift,'' Oral presentation at AAPM (2019).
 
@@ -174,33 +165,34 @@ Instructor: \profchen~\& \profculberson
 \end{itemize}
 
 %%%%%%%%%%%%%%%%%%%%%%
-\resheading {Invited Talks}
+\resheading {受邀报告}
 \begin{enumerate}\justifying
-\item ``Statistical properties of grating-based x-ray phase contrast imaging,'' Presented at Shenzhen Institutes of Advanced Technology, Chinese Academy of Science (2019).
+\item ``Statistical properties of grating-based x-ray phase contrast imaging,'' 中科院深圳先进技术研究院 (2019).
 \end{enumerate}
 %%%%%%%%%%%%%%%%%%%%%%
-\resheading{{Honors and Awards}}
+\resheading{主要奖项}
 \begin{itemize}\justifying
-\item Runner-up, Robert F. Wagner all-conference best student paper award, SPIE Medical Imaging~(2020).
-\item 1st place, Physics of medical imaging student paper award, SPIE Medical Imaging (2020).
-\item Trainee research prize, RSNA (2017).
-\item Expanding horizons grant award, AAPM (2016).
-\item Student travel award, RSNA (2016).
-\item China National Scholarship (2012).
+\item 国际光电工程学会医学影像会议 Robert F. Wagner 大会最佳学生论文奖第二名~(2020).
+\item 国际光电工程学会医学影像会议~物理分会学生最佳论文奖第一名~(2020).
+\item 北美放射学会~Trainee research prize~(2017).
+\item 美国医学物理协会~Expanding horizons grant award~(2016).
+\item 北美放射学会~Student travel award~(2016).
+\item 中国国家奖学金~(2012).
 \end{itemize}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\resheading{Services}
+\resheading{学术服务}
 \begin{itemize}
-\item Reviewer of Medical Physics, Journal of Applied Clinical Medical Physics and The International Journal of Cardiovascular Imaging
+\item 《Medical Physics》《Journal of Applied Clinical Medical Physics》《The International Journal of Cardiovascular Imaging》 等期刊审稿人
 \end{itemize}
 %%%%%%%%%%%%%%%%%%%%%%
-\resheading{Memberships}
+\resheading{会员}
 \begin{itemize}
-\item AAPM student member \cftdotfill{\cftdotsep} 2016 - present
+\item 美国医学物理协会学生会员 \cftdotfill{\cftdotsep} 2016 - 今
 \end{itemize}
 %%%%%%%%%%%%%%%%%%%%%%
-\resheading{Professional certifications}
+\resheading{专业证书}
 \begin{itemize}
 \item The American Board of Radiology - Medical Physics - Part 1
 \end{itemize}
+\end{CJK}
 \end{document}
