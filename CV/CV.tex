@@ -1,0 +1,206 @@
+\documentclass[letterpaper,11pt]{article}
+\usepackage{pifont}
+
+%-----------------------------------------------------------
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{hyperref}
+\usepackage{framed}
+\usepackage{tocloft}
+\usepackage{bibentry}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\usepackage{ragged2e}
+\usepackage{multirow}
+\hypersetup{
+    colorlinks,%
+    citecolor=blue,%
+    filecolor=blue,%
+    linkcolor=black,%
+    urlcolor=black    % can put red here to better visualize the links
+}
+\urlstyle{same}
+\definecolor{mygrey}{gray}{.85}
+\definecolor{mygreylink}{gray}{.30}
+\textheight=9.0in
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.3in}
+\addtolength{\evensidemargin}{0.3in}
+\addtolength{\textwidth}{0.6in}
+\addtolength{\topmargin}{-0.375in}
+\addtolength{\textheight}{0.75in}
+
+%-----------------------------------------------------------
+%Custom commands
+
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{{\large \colorbox{mygrey}{\begin{minipage}{\textwidth}{\textbf{#1 \vphantom{p\^{E}}}}\end{minipage}}}}
+
+%-----------------------------------------------------------
+
+%-----------------------------------------------------------
+%General Resume Tips
+%   No periods!  Technically, nothing in this document is a full sentence.
+%   Use parallelism by ending key words with the same thing,  i.e. "Coordinated; Designed; Communicated".
+%   More tips on bottom of this LaTeX document.
+%-----------------------------------------------------------
+
+
+\renewcommand{\rmdefault}{ptm}
+
+\renewcommand\baselinestretch{1}% change line space here
+\newcommand{\profchen}{Prof.~\href{https://www.medphysics.wisc.edu/blog/staff/chen-guanghong/} {Guang-Hong Chen}}
+
+\newcommand{\profculberson}{Prof.~\href{https://www.medphysics.wisc.edu/blog/staff/culberson-wesley/} {Wesley~Culberson}}
+\newcommand{\xji}{\textbf{X.~Ji}}
+\begin{document}
+
+
+
+\newcommand{\mywebheader}{
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+
+	\end{tabular*}
+\\
+\vspace{0.35in}}
+
+\lhead{\textbf{{Xu Ji}}}
+\rhead{\href{mailto:xji32@wisc.edu}{xji32@wisc.edu}}
+\cfoot{\thepage}
+\renewcommand{\headwidth}{\textwidth}
+%\renewcommand{\headrulewidth}{1pt}
+%\renewcommand{\footrulewidth}{1pt}
+
+% CHANGE HEADER SOURCE HERE
+\mywebheader
+\begin{tabular*}{\textwidth}{l @{\extracolsep{\fill}}r}
+   \multirow{4}{*}{\textbf{\Huge Xu Ji}} &Research assistant\\
+  &Department of Medical Physics, University of Wisconsin-Madison\\
+  &1111 Highland Ave, Madison, WI 53705\\
+  &\textbf{Email:} \href{mailto:xji32@wisc.edu}{xji32@wisc.edu} 
+\end{tabular*}
+
+\resheading{Education}
+	\begin{itemize}
+	\item \textbf{Ph.D. in Medical Physics}, University of Wisconsin-Madison\cftdotfill{\cftdotsep}08/2015 - present
+	
+	Advisor: \profchen	
+        \item
+\textbf{B.S. in Physics}, Kuangyaming Honors School, Nanjing University\cftdotfill{\cftdotsep}09/2011 - 06/2015
+		
+GPA: 94/100~(3.9/4.0)
+	
+Ranking: 1/80 \qquad
+       
+\end{itemize} % End Education list
+%%%%%%%%%%%%%%%%%%%%%%%
+\resheading{Research Interests}
+	\begin{itemize}
+	\item Broad interests: X-ray imaging systems and algorithms
+	\item Specific interests: I work on x-ray photon counting detector-based x-ray imaging for medical purposes. I am also interested in x-ray differential phase contrast imaging and discovering its potential application in medical imaging. 
+	\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%
+\resheading{Experiences}
+\begin{itemize}
+\item \textbf{Graduate Research Assistant}\cftdotfill{\cftdotsep} 08/2015 - present
+
+Department of Medical Physics at UW-Madison
+
+Supervised by \profchen
+\item \textbf{Graduate Teaching Assistant} \cftdotfill{\cftdotsep} Fall semesters in 2017,  2018 \& 2019
+
+Course: Medical Physics 501 - Radiological Physics and Dosimetry
+
+Instructor: \profchen~\& \profculberson
+	 \item \textbf{Visiting Student}, Department of Physics, Duke University\cftdotfill{\cftdotsep}08/2014 - 12/2014
+\end{itemize}
+%%%%%%%%%%%%%%%%%%%%%%
+\resheading{Publications}
+\begin{itemize}
+\item Journal publications
+\begin{enumerate}\justifying
+\item \xji, R. Zhang, K. Li, and G.-H. Chen, ``Dual energy differential phase contrast CT (DE-DPC-CT) imaging,'' IEEE Trans. Med. Imag. (2020).
+\item \xji, R. Zhang, K. Li, and G.-H. Chen, ``Is high sensitivity always desirable for a grating-based phase contrast imaging system?'' Med. Phys. 47: 1215-1228, (2019).
+\item \xji, R. Zhang, G.-H. Chen, and K. Li, ``Task-driven optimization of the non-spectral mode of photon counting CT for intracranial hemorrhage assessment,'' Phys. Med. Biol. 64 215014 (2019).
+\item E. Harvey, M. Feng, \xji, R. Zhang, Y. Li, G.-H. Chen, and K. Li, ``Impacts of photon counting CT to maximum intensity projection (MIP) images of cerebral CT angiography: theoretical and experimental studies,'' Phys. Med. Biol. 64 185015 (2019).
+\item \xji, M. Feng, R. Zhang, G.-H. Chen, and K. Li, ``An experimental method to directly measure DQE(k) at k = 0 for 2D x-ray imaging systems,'' Phys. Med. Biol. 64 075013 (2019).
+\item \xji, R. Zhang, G.-H. Chen, and K. Li, ``Impact of anti-charge sharing on the zerofrequency detective quantum efficiency of CdTe-based photon counting detector system: cascaded systems analysis and experimental validation,'' Phys. Med. Biol. 63, 095003 (2018).
+\item Y. Ge*, \xji*, R. Zhang, K. Li, and G.-H. Chen, ``K-edge energy-based calibration method for photon counting detectors,'' Phys. Med. Biol. 63, 015022 (2018) (*co-first author)
+\item \xji, Y. Ge, R. Zhang, K. Li, and G.-H. Chen, ``Studies of signal estimation bias in grating-based x-ray multicontrast imaging,'' Med. Phys. 44: 2453-2465, (2017).
+\end{enumerate}
+
+\item Conference proceedings
+\begin{enumerate}\justifying
+\item \xji, R. Zhang, K. Li, and G.-H. Chen, ``Phase contrast CT enabled three-material decomposition in spectral CT imaging,'' Proc.~SPIE 113121B \& Oral presentation at SPIE Medical Imaging (2020).
+\item M. Feng, \xji, R. Zhang, J. R. Miller, G.-H. Chen, K. Li, ``Impact of photon counting detector spectral distortion on virtual non-contrast CT imaging,'' Proc.~SPIE 113121J (2020).
+\item \xji, R. Zhang, K. Li, and G.-H. Chen, ``Impact of the sensitivity factor on the signal-to-noise ratio in grating-based phase contrast imaging,'' Proc.~SPIE 10948 \& Oral presentation at SPIE Medical Imaging (2019).
+\item \xji, M. Feng, R. Zhang, G.-H. Chen, and K. Li, ``An experimental method to correct drift-induced error in zero-frequency DQE measurement,'' Proc.~SPIE 10948 \& Oral presentation at SPIE Medical Imaging (2019).
+\item M. Feng, \xji, K. Treb, R. Zhang, G.-H. Chen, K. Li, ``Spectrum optimization in photon counting detector based iodine K-edge CT imaging,'' Proc.~SPIE 10948 (2019).
+\item E. Harvey, M. Feng, \xji, R. Zhang, G.-H. Chen, K. Li, ``Impacts of photon counting detector to cerebral CT angiography maximum intensity projection (MIP) images,'' Proc.~SPIE 10948 (2019).
+\item \xji, R. Zhang, G.-H. Chen, and K. Li, ``Task-driven optimization of an experimental photon counting detector CT system for intracranial hemorrhage detection,'' Proc.~SPIE 10573 \& Oral presentation at SPIE Medical Imaging (2018).
+\item K. Li, R. Zhang, J. Garrett, Y. Ge, \xji, and G.-H. Chen, ``Design, construction, and initial results of a prototype multi-contrast x-ray breast imaging system,'' Proc.~SPIE 10573 (2018).
+\item \xji, R. Zhang, Y. Ge, K. Li, and G.-H. Chen, ``Signal and noise characteristics of a CdTe-based photon counting detector: cascaded systems analysis and experimental studies,'' Proc.~SPIE 10132 \& Oral presentation at SPIE Medical Imaging (2017).
+\item \xji, Y. Ge, R. Zhang, K. Li, and G.-H. Chen, ``Weighted singular value decomposition (wSVD) to improve the radiation dose efficiency of grating-based x-ray phase contrast imaging with a photon counting detector,'' Proc.~SPIE 10132 \& Poster presentation at SPIE Medical Imaging (2017).
+\item \xji, Y. Ge, R. Zhang, K. Li, and G.-H. Chen, ``Potential bias in signal estimation for grating-based x-ray multi-contrast imaging,'' Proc.~SPIE 10132 \& Oral presentation at SPIE Medical Imaging (2017).
+\end{enumerate}
+ 
+\item Conference abstracts 
+\begin{enumerate}\justifying
+\item \xji, M. Feng, R. Zhang, G.-H. Chen, and K. Li, ``An experimental method to measure zero-Frequency DQE in the presence of system drift,'' Oral presentation at AAPM (2019).
+
+\item \xji, M. Feng, R. Zhang, G.-H. Chen, and K. Li, ``A practical model for the energy response function of photon counting detector systems with anti-charge sharing logic,'' Oral presentation at AAPM (2019).
+
+\item \xji, R. Zhang, G.-H. Chen, and K. Li, ``How does anti-charge sharing impact the zero-frequency DQE of photon counting detector systems? Theoretical framework and experimental validation,'' Oral presentation at AAPM (2018).
+
+\item \xji, Y. Ge, R. Zhang, G.-H. Chen and K. Li, ``Potential application of photon counting detector CT in intracranial hemorrhage detection,'' Oral presentation at RSNA (2017).
+
+\item Y. Ge, R. Zhang, J. W. Garrett, \xji, J. P. Cruz-Bastida, G.-H. Chen and K. Li, ``Initial experimental results from the first x-Ray dark field breast tomosynthesis prototype system,'' RSNA (2017).
+
+\item \xji, Y. Ge, R. Zhang, K. Li and G.-H. Chen , ``Is a high sensitivity interferometer always good for a grating-based differential phase contrast imaging system?'' Oral presentation at XNPIG (2017).
+
+\item Y. Ge, \xji, R. Zhang, K. Li, and G.-H. Chen, ``Energy calibration of photon counting detectors based on measurement of x-ray attenuation curve of K-edge materials,'' AAPM (2017).
+
+\item Y. Ge, \xji, R. Zhang, K. Li, and G.-H. Chen, ``Radiation dose reduction in x-ray differential phase contrast breast imaging using an energy-resolved grating interferometer,'' RSNA (2016).
+
+\item \xji, Y. Ge, R. Zhang, K. Li, and G.-H. Chen, ``Low dose performance of a CdTe single photon counting detector and its application in radiation dose reduction for x-ray differential phase contrast imaging,'' Oral presentation at RSNA (2016).
+\end{enumerate}
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%
+\resheading {Invited Talks}
+\begin{enumerate}\justifying
+\item ``Statistical properties of grating-based x-ray phase contrast imaging,'' Presented at Shenzhen Institutes of Advanced Technology, Chinese Academy of Science (2019).
+\end{enumerate}
+%%%%%%%%%%%%%%%%%%%%%%
+\resheading{{Honors and Awards}}
+\begin{itemize}\justifying
+\item Runner-up, Robert F. Wagner all-conference best student paper award, SPIE Medical Imaging~(2020).
+\item 1st place, Physics of medical imaging student paper award, SPIE Medical Imaging (2020).
+\item Trainee research prize, RSNA (2017).
+\item Expanding horizons grant award, AAPM (2016).
+\item Student travel award, RSNA (2016).
+\item China National Scholarship (2012).
+\end{itemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\resheading{Services}
+\begin{itemize}
+\item Reviewer of Medical Physics, Journal of Applied Clinical Medical Physics and The International Journal of Cardiovascular Imaging
+\end{itemize}
+%%%%%%%%%%%%%%%%%%%%%%
+\resheading{Memberships}
+\begin{itemize}
+\item AAPM student member \cftdotfill{\cftdotsep} 2016 - present
+\end{itemize}
+%%%%%%%%%%%%%%%%%%%%%%
+\resheading{Professional certifications}
+\begin{itemize}
+\item The American Board of Radiology - Medical Physics - Part 1
+\end{itemize}
+\end{document}
