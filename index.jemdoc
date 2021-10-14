@@ -7,11 +7,13 @@
 Department of Medical Physics, University of Wisconsin-Madison\n\n
 1111 Highland Ave, Madison, WI 53705\n\n
 Email: [xji32@wisc.edu]\n\n
-[https://scholar.google.com/citations?user=b-S9VEMAAAAJ&hl=en /Google Scholar page/]
+#[https://scholar.google.com/citations?user=b-S9VEMAAAAJ&hl=en /Google Scholar page/]
 ~~~
 
 == Biography
-I am a postdoctoral researcher in [https://www.medphysics.wisc.edu/wp/research/ct/ CT research group] in Department of Medical Physics at University of Wisconsin-Madison advised by [https://www.medphysics.wisc.edu/wp/blog/staff/chen-guanghong/ Dr. Guang-Hong Chen] and [https://www.medphysics.wisc.edu/wp/blog/staff/ke-li/ Dr. Ke Li]. My research projects are related to x-ray imaging systems and algorithms. #You can find a copy of my CV in [CV/CV.pdf /English/] or [CV_chinese/CV.pdf /Chinese/].
+*/I will be joining the school of computer science and engineering at Southeast University as an associate professor, starting from fall 2021/*.  
+
+Before that, I was a postdoctoral researcher in [https://www.medphysics.wisc.edu/wp/research/ct/ CT research group] in Department of Medical Physics at University of Wisconsin-Madison advised by [https://www.medphysics.wisc.edu/wp/blog/staff/chen-guanghong/ Dr. Guang-Hong Chen] and [https://www.medphysics.wisc.edu/wp/blog/staff/ke-li/ Dr. Ke Li]. My research projects are related to x-ray imaging systems and algorithms. I served as an reviewer for journals including IEEE /Transactions on Medical Imaging/ and /Medical Physics/. For more detailed information related to me, you can download a copy of [CV/CV.pdf /my CV/]. 
 
 == Education
 - Ph. D., Department of Medical Physics, University of Wisconsin-Madison. (2015 - 2020)
@@ -19,7 +21,7 @@ I am a postdoctoral researcher in [https://www.medphysics.wisc.edu/wp/research/c
 
 
 == Experience
-- Postdoctoral Researcher, Department of Medical Physics, University of Wisconsin-Madison. (2020 - present)
+- Postdoctoral Researcher, Department of Medical Physics, University of Wisconsin-Madison. (2020 - 2021)
 -- Advisor: Dr. Guang-Hong Chen & Dr. Ke Li
 - Graduate Research Assistant, Department of Medical Physics, University of Wisconsin-Madison. (2015 - 2020)
 -- Advisor: Dr. Guang-Hong Chen
@@ -27,39 +29,15 @@ I am a postdoctoral researcher in [https://www.medphysics.wisc.edu/wp/research/c
 -- Instructor: Dr. Guang-Hong Chen & Dr. Wesley Culberson
 - Visiting International Student, Department of Physics, Duke University. (2014)
 
-== Journal publications
+== Selected publications 
+*Full publication list* can be found in [CV/CV.pdf /my CV/] or [https://scholar.google.com/citations?user=b-S9VEMAAAAJ&hl=en /Google Scholar page/]
+. *X. Ji*, K. Treb, and K. Li, ``Development of an integrated C-arm interventional imaging system with a strip photon counting detector and a flat panel detector'', [https://ieeexplore.ieee.org/abstract/document/9475959 IEEE /Trans. Med. Imag./ (2021)].
+. M. Feng\*, *X. Ji*\*, R. Zhang, K. Treb, A. M. Dingle and K. Li, ``An experimental method to correct low-frequency concentric artifacts in photon counting CT'', [https://iopscience.iop.org/article/10.1088/1361-6560/ac1833/meta /Phys. Med. Biol./ 66, 175011 (2021)] (\*co-first author). 
+. *X. Ji*, K. Treb, and K. Li, ``Anomalous edge response of cadmium telluride-based photon counting detectors jointly caused by high-flux radiation and inter-pixel communication'', [https://iopscience.iop.org/article/10.1088/1361-6560/abf1fe/meta /Phys. Med. Biol./ 66, 085006 (2021)].
 . *X. Ji*, R. Zhang, K. Li, and G.-H. Chen, ``Dual energy differential phase contrast CT (DE-DPC-CT) imaging,'' [https://ieeexplore.ieee.org/document/9078041 IEEE /Trans. Med. Imag./ (2020)].
-. *X. Ji*, R. Zhang, K. Li, and G.-H. Chen, ``Is high sensitivity always desirable for a grating-based phase contrast imaging system?'' [https://aapm.onlinelibrary.wiley.com/doi/abs/10.1002/mp.13984 /Med. Phys./ 47: 1215-1228, (2019)].
 . *X. Ji*, R. Zhang, G.-H. Chen, and K. Li, ``Task-driven optimization of the non-spectral mode of photon counting CT for intracranial hemorrhage assessment,'' [https://iopscience.iop.org/article/10.1088/1361-6560/ab43a6 /Phys. Med. Biol./ 64 215014 (2019)].
-. E. Harvey, M. Feng, *X. Ji*, R. Zhang, Y. Li, G.-H. Chen, and K. Li, ``Impacts of photon counting CT to maximum intensity projection (MIP) images of cerebral CT angiography: theoretical and experimental studies,'' [https://www.ncbi.nlm.nih.gov/pubmed/31315093 /Phys. Med. Biol./ 64 185015 (2019)].
-. *X. Ji*, M. Feng, R. Zhang, G.-H. Chen, and K. Li, ``An experimental method to directly measure DQE(k) at k = 0 for 2D x-ray imaging systems,'' [https://www.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=pubmed&retmode=ref&cmd=prlinks&id=30884472 /Phys. Med. Biol./ 64 075013 (2019)].
 . *X. Ji*, R. Zhang, G.-H. Chen, and K. Li, ``Impact of anti-charge sharing on the zerofrequency detective quantum efficiency of CdTe-based photon counting detector system: cascaded systems analysis and experimental validation,'' [http://stacks.iop.org/0031-9155/63/i=9/a=095003 /Phys. Med. Biol./ 63, 095003 (2018)].
-. Y. Ge\*, *X. Ji*\*, R. Zhang, K. Li, and G.-H. Chen, ``K-edge energy-based calibration method for photon counting detectors,'' [http://stacks.iop.org/0031-9155/63/i=1/a=015022 /Phys. Med. Biol./ 63, 015022 (2018)] (\*co-first author)
 . *X. Ji*, Y. Ge, R. Zhang, K. Li, and G.-H. Chen, ``Studies of signal estimation bias in grating-based x-ray multicontrast imaging,'' [https://aapm.onlinelibrary.wiley.com/doi/abs/10.1002/mp.12235 /Med. Phys./ 44: 2453-2465, (2017)]. 
-
-== Conference proceedings
-. *X. Ji*, R. Zhang, K. Li, and G.-H. Chen, ``Phase contrast CT enabled three-material decomposition in spectral CT imaging,'' [https://doi.org/10.1117/12.2549014 Proc.SPIE 113121B (2020)].
-. M. Feng, *X. Ji*, R. Zhang, J. R. Miller, G.-H. Chen, K. Li, ``Impact of photon counting detector spectral distortion on virtual non-contrast CT imaging,'' [https://doi.org/10.1117/12.2549737 Proc.SPIE 113121J (2020)].
-. *X. Ji*, R. Zhang, K. Li, and G.-H. Chen, ``Impact of the sensitivity factor on the signal-to-noise ratio in grating-based phase contrast imaging,'' [https://doi.org/10.1117/12.2512251 Proc.SPIE 10948 (2019)].
-. *X. Ji*, M. Feng, R. Zhang, G.-H. Chen, and K. Li, ``An experimental method to correct drift-induced error in zero-frequency DQE measurement,'' [https://doi.org/10.1117/12.2512467 Proc.SPIE 10948 (2019)].
-. M. Feng, *X. Ji*, K. Treb, R. Zhang, G.-H. Chen, K. Li, ``Spectrum optimization in photon counting detector based iodine K-edge CT imaging,'' [https://doi.org/10.1117/12.2512893 Proc.SPIE 10948 (2019)].
-. E. Harvey, M. Feng, *X. Ji*, R. Zhang, G.-H. Chen, K. Li, ``Impacts of photon counting detector to cerebral CT angiography maximum intensity projection (MIP) images,'' [https://doi.org/10.1117/12.2513205 Proc.SPIE 10948 (2019)].
-. *X. Ji*, R. Zhang, G.-H. Chen, and K. Li, ``Task-driven optimization of an experimental photon counting detector CT system for intracranial hemorrhage detection,'' [http://dx.doi.org/10.1117/12.2293942 Proc.SPIE 10573 (2018)].
-. K. Li, R. Zhang, J. Garrett, Y. Ge, *X. Ji*, and G.-H. Chen, ``Design, construction, and initial results of a prototype multi-contrast x-ray breast imaging system,'' [http://dx.doi.org/10.1117/12.2293921 Proc.SPIE 10573 (2018)].
-. *X. Ji*, R. Zhang, Y. Ge, K. Li, and G.-H. Chen, ``Signal and noise characteristics of a CdTe-based photon counting detector: cascaded systems analysis and experimental studies,'' [http://dx.doi.org/10.1117/12.2255063 Proc.SPIE 10132 (2017)].
-. *X. Ji*, Y. Ge, R. Zhang, K. Li, and G.-H. Chen, ``Weighted singular value decomposition (wSVD) to improve the radiation dose efficiency of grating-based x-ray phase contrast imaging with a photon counting detector,'' [http://dx.doi.org/10.1117/12.2255014 Proc.SPIE 10132 (2017)].
-. *X. Ji*, Y. Ge, R. Zhang, K. Li, and G.-H. Chen, ``Potential bias in signal estimation for grating-based x-ray multi-contrast imaging,'' [http://dx.doi.org/10.1117/12.2254429 Proc.SPIE 10132 (2017)]. 
-
-== Conference abstracts
-. *X. Ji*, M. Feng, R. Zhang, G.-H. Chen, and K. Li, ``An Experimental Method to Measure Zero-Frequency DQE in the Presence of System Drift,'' Oral presentation at AAPM (2019).
-. *X. Ji*, M. Feng, R. Zhang, G.-H. Chen, and K. Li, ``A Practical Model for the Energy Response Function of Photon Counting Detector Systems with Anti-Charge Sharing Logic,'' Oral presentation at AAPM (2019).
-. *X. Ji*, R. Zhang, G.-H. Chen, and K. Li, ``How Does Anti-Charge Sharing Impact the Zero-Frequency DQE of Photon Counting Detector Systems? Theoretical Framework and Experimental Validation,'' Oral presentation at AAPM (2018).
-. *X. Ji*, Y. Ge, R. Zhang, G.-H. Chen and K. Li, ``Potential Application of Photon Counting Detector CT in Intracranial Hemorrhage Detection,'' Oral presentation at RSNA (2017).
-. Y. Ge, R. Zhang, J. W. Garrett, *X. Ji*, J. P. Cruz-Bastida, G.-H. Chen and K. Li, ``Initial Experimental Results from the First X-Ray Dark Field Breast Tomosynthesis Prototype System,'' RSNA (2017).
-. *X. Ji*, Y. Ge, R. Zhang, K. Li and G.-H. Chen , ``Is a High Sensitivity Interferometer Always Good for a Grating-based Differential Phase Contrast Imaging System?'' Oral presentation at XNPIG (2017).
-. Y. Ge, *X. Ji*, R. Zhang, K. Li, and G.-H. Chen, ``Energy Calibration of Photon Counting Detectors Based On Measurement of X-Ray Attenuation Curve of K-Edge Materials,'' AAPM (2017).
-. Y. Ge, *X. Ji*, R. Zhang, K. Li, and G.-H. Chen, ``Radiation Dose Reduction in X-ray Differential Phase Contrast Breast Imaging using an Energy-resolved Grating Interferometer,'' RSNA (2016).
-. *X. Ji*, Y. Ge, R. Zhang, K. Li, and G.-H. Chen, ``Low Dose Performance of a CdTe Single Photon Counting Detector and Its Application in Radiation Dose Reduction for X-ray Differential Phase Contrast Imaging,'' Oral presentation at RSNA (2016).
 
 == Invited talks
 . ``Statistical Properties of Grating-based X-ray Phase Contrast Imaging,'' Presented at Shenzhen Institutes of Advanced Technology, Chinese Academy of Science (2019). 
@@ -72,19 +50,7 @@ I am a postdoctoral researcher in [https://www.medphysics.wisc.edu/wp/research/c
 - Student travel award, RSNA, 2016.
 - China national scholarship, 2012.
 
-== Services
-- Reviewer of 
--- /Medical Physics/ 
--- /Journal of Applied Clinical Medical Physics/
--- /The International Journal of Cardiovascular Imaging/
--- /Radiation Measurements/
-
-== Membership
-- AAPM student member (2016 - 2020)
-
 == Professional certifications
 - The American Board of Radiology - Medical Physics - Part 1
 
-#== Miscellaneous
-#- I am an amatuer classical guitarist performer and an amatuer photographer, specilized in macro- and astro-photography. 
 
