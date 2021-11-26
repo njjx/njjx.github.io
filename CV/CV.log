@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2021.3.3)  14 OCT 2021 14:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2021.3.3)  26 NOV 2021 19:42
 entering extended mode
 **c:/Users/Xu/Desktop/njjx.github.io/CV/CV.tex
 (c:/Users/Xu/Desktop/njjx.github.io/CV/CV.tex
@@ -329,7 +329,7 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 112--113
  []
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 131--132
+Overfull \hbox (6.0pt too wide) in paragraph at lines 134--135
 [][][][][][]  
  []
 
@@ -348,40 +348,39 @@ This may cause the page layout to be inconsistent, however.
 [1{C:/Users/Xu/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
 
 ] [2]
-Overfull \hbox (6.0pt too wide) in paragraph at lines 189--190
+Overfull \hbox (6.0pt too wide) in paragraph at lines 192--193
 [][][][][][][]  
  []
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 194--195
+Overfull \hbox (6.0pt too wide) in paragraph at lines 197--198
 [][][][][][]  
  []
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 204--205
+Overfull \hbox (6.0pt too wide) in paragraph at lines 207--208
 [][][][][][]  
  []
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 209--210
-[][][][][][]  
- []
-
-
-Overfull \hbox (6.0pt too wide) in paragraph at lines 214--215
+Overfull \hbox (6.0pt too wide) in paragraph at lines 212--213
 [][][][][][]  
  []
 
 [3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 218.
- [4]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 218.
+Overfull \hbox (6.0pt too wide) in paragraph at lines 217--218
+[][][][][][]  
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 221.
+[4]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 221.
  (CV.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 218.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 218.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 221.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 221.
 Package rerunfilecheck Info: File `CV.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 218.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 221.
  ) 
 Here is how much of TeX's memory you used:
  5916 strings out of 480385
@@ -392,7 +391,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  42i,11n,45p,357b,463s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Xu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/Xu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Xu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
-Output written on CV.pdf (4 pages, 51907 bytes).
+Output written on CV.pdf (4 pages, 52115 bytes).
 PDF statistics:
  84 PDF objects out of 1000 (max. 8388607)
  39 named destinations out of 1000 (max. 500000)
